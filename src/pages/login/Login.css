@@ -1,0 +1,150 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fullscreen-wrapper {
+    background-color: #f0f0f0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.welcome-text {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    text-align: left;
+}
+
+.welcome-text h1 {
+    font-size: 4vw;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #D23C45;
+    font-weight: bold;
+}
+
+
+.welcome-text h2 {
+    font-size: 2vw;
+    color: #555;
+}
+
+.login-block {
+    background-color: #444;
+    height: auto;
+    width: 550px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 1px 4px 10px #111;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.login-title {
+    color: #D23C45;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.input-group label {
+    color: #d2d2d2;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #d2d2d2;
+    font-size: 1rem;
+    color: #444;
+    box-sizing: border-box;
+}
+
+.login-container input:focus {
+    border-color: #D23C45;
+    outline: none;
+}
+
+.login-container input:hover {
+    border-color: #D23C45;
+}
+
+.login-button {
+    width: 100%;
+    background-color: #D23C45;
+    color: white;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.login-button:hover {
+    box-shadow: 0 4px 8px #222;
+}
+
+.signup-text {
+    font-size: 0.8rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signup-link {
+    text-decoration: underline;
+    color:#D23C45;
+}
+
+/* Media Query para telas menores que 768px */
+@media (max-width: 768px) {
+    .welcome-text h1 {
+        font-size: 6vw;
+    }
+    
+    .welcome-text h2 {
+        font-size: 4vw;
+    }
+
+    .login-block {
+        width: 90%;
+        max-width: 550px;
+        padding: 20px;
+        margin-top: 80px;
+    }
+}
+
+/* Media Query para telas menores que 480px */
+@media (max-width: 480px) {
+    .welcome-text h1 {
+        font-size: 8vw;
+    }
+
+    .welcome-text h2 {
+        font-size: 4vw;
+    }
+}

@@ -1,0 +1,42 @@
+/* UserMenu.css */
+.user-menu {
+    position: relative; /* Para posicionar o dropdown em relação ao botão */
+}
+
+.user-menu-button {
+    background-color: #333; /* Cor do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    padding: 10px; /* Espaçamento interno */
+    cursor: pointer; /* Cursor de ponteiro */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.user-menu-dropdown {
+    position: absolute; /* Posiciona o dropdown */
+    top: 100%; /* Abaixo do botão */
+    right: 0; /* Alinhado à direita */
+    background-color: white; /* Cor de fundo do menu */
+    border: 1px solid #ccc; /* Borda */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    z-index: 1000; /* Para garantir que o dropdown fique acima de outros elementos */
+}
+
+.user-menu-dropdown ul {
+    list-style-type: none; /* Remove marcadores de lista */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove preenchimento */
+}
+
+.user-menu-dropdown ul li {
+    padding: 10px; /* Espaçamento interno */
+}
+
+.user-menu-dropdown ul li a {
+    text-decoration: none; /* Remove sublinhado */
+    color: black; /* Cor do texto */
+}
+
+.user-menu-dropdown ul li:hover {
+    background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
+}

@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+}
+
+h2 {
+  font-size: 2vw;
+  color: #D23C45;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  background-color: #444;
+  height: auto;
+  width: 850px;
+  padding: 30px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+input {
+  width: 90%;
+  height: 25%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #d2d2d2;
+  font-size: 1rem;
+  color: #444;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #D23C45;
+  outline: none;
+}
+
+p {
+  margin: 0;
+}
+
+.excludButton {
+  background-color: #D23C45;
+  color: white;
+  width: 100;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-left: 200px;
+}
+
+
+.attButton {
+  background-color: #65b307;
+  color: white;
+  width: 100;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  margin-right: 175px;
+  border-radius: 5px;
+}
+
+
+.buttonCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

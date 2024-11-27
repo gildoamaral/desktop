@@ -1,9 +1,9 @@
 {
+  "homepage": "https://gildoamaral.github.io/desktop/",
   "name": "desktop",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://gildoamaral.github.io/desktop/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
